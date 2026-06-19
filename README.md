@@ -1,6 +1,7 @@
 <h2 align="center">Hey 👈(ﾟヮﾟ👈)This is nik!</h2>
-
-###
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F75C7E&width=600&lines=Front+End+Developer;Understanding+topics+to+explain+to+a+cat;Open+Source+Contributor" alt="Typing SVG" />
+</div>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
@@ -43,5 +44,16 @@
 
 <br clear="both">
 
-###
-![Pacman Game](https://githubusercontent.com)
+### 🕹️ Play Rock-Paper-Scissors with my Bot!
+Click a link below to challenge my automated workflow. It will process your move, battle the AI, update the scoreboard below, and close your issue automatically!
+
+| [🪨 Choose Rock](https://github.com) | [📄 Choose Paper](https://github.com) | [✂️ Choose Scissors](https://github.com) |
+| :---: | :---: | :---: |
+
+#### 📊 Current Scoreboard
+<!-- RPS-SCOREBOARD-START -->
+- 🏆 **Player Wins**: 0
+- 🤖 **Bot Wins**: 0
+- 🤝 **Ties**: 0
+<!-- RPS-SCOREBOARD-END -->
+
