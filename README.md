@@ -53,7 +53,7 @@ Click a link below to challenge my automated workflow. It will process your move
 #### 📊 Current Scoreboard
 <!-- RPS-SCOREBOARD-START -->
 - 🏆 **Player Wins**: 0
-- 🤖 **Bot Wins**: 0
+- 🤖 **Bot Wins**: 1
 - 🤝 **Ties**: 0
 <!-- RPS-SCOREBOARD-END -->
 
