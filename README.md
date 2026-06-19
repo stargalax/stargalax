@@ -1,8 +1,4 @@
-<h2 align="center">Hey 👈(ﾟヮﾟ👈)This is nik!</h2>
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=650&lines=Front+End+Developer;Understanding+topics+to+explain+to+a+cat;Open+Source+Contributor" alt="Typing SVG" />
-  <br />
-<img src="https://raw.githubusercontent.com/gayanvoice/github-profile-readme-templates/main/profiles/cyberpunk/images/cyberpunk.gif" width="120px" /></div>
+<div align="center"><img width="590" height="96" alt="20260619-1608-16 7247849" src="https://github.com/user-attachments/assets/1535be65-6300-4ca8-965a-5e8b54af6552" /></div>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
@@ -25,14 +21,15 @@
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=postman" height="60" alt="postman logo"  />
 </div>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=650&lines=Front+End+Developer;Understanding+topics+to+explain+to+a+cat;Open+Source+Contributor" alt="Typing SVG" />
+</div>
 
-###
 
 <div align="center">
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
 </div>
 
-###
 
 <br clear="both">
 
