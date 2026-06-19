@@ -1,0 +1,59 @@
+name: Rock Paper Scissors Game Engine
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, 'RPS:')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Match Logic
+        id: rps
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: python play_game.py
+
+      - name: Commit Scoreboard Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Scoreboard updated by player choice: #${{ github.event.issue.number }}" || exit 0
+          git push
+
+      - name: Send Feedback and Close Issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const message = "${{ steps.rps.outputs.outcome_message }}";
+            
+            // Post match result as a comment on the challenge issue
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `${message}\n\nThank you for visiting my profile! This match has been logged and compiled automatically.`
+            });
+
+            // Lock and close issue to maintain clean workflow boards
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'completed'
+            });
