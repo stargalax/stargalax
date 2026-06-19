@@ -47,7 +47,7 @@
 ### 🕹️ Play Rock-Paper-Scissors with my Bot!
 Click a link below to challenge my automated workflow. It will process your move, battle the AI, update the scoreboard below, and close your issue automatically!
 
-| [🪨 Choose Rock](https://github.com) | [📄 Choose Paper](https://github.com) | [✂️ Choose Scissors](https://github.com) |
+| [🪨 Choose Rock](https://github.com/stargalax/stargalax/issues/new?title=RPS:+Rock) | [📄 Choose Paper](https://github.com/stargalax/stargalax/issues/new?title=RPS:+Paper) | [✂️ Choose Scissors](https://github.com/stargalax/stargalax/issues/new?title=RPS:+Scissors) |
 | :---: | :---: | :---: |
 
 #### 📊 Current Scoreboard
