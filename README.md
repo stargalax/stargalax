@@ -99,7 +99,7 @@ note: Click a button below, **then just hit "Submit new issue"** on the next pag
 
 #### 📊 Current Scoreboard
 <!-- RPS-SCOREBOARD-START -->
-- 🏆 **Player Wins**: 0
+- 🏆 **Player Wins**: 1
 - 🤖 **Bot Wins**: 1
 - 🤝 **Ties**: 2
 <!-- RPS-SCOREBOARD-END -->
