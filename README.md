@@ -101,6 +101,6 @@ note: Click a button below, **then just hit "Submit new issue"** on the next pag
 <!-- RPS-SCOREBOARD-START -->
 - 🏆 **Player Wins**: 0
 - 🤖 **Bot Wins**: 1
-- 🤝 **Ties**: 1
+- 🤝 **Ties**: 2
 <!-- RPS-SCOREBOARD-END -->
 
